@@ -1,0 +1,10 @@
+<h1> News Feed </h1>
+<h3> Here is a news feed</h3>
+
+@foreach(var article in @Model.Articles)
+{
+    <div id=@article.ArticleID>
+    <b>@article.Title</b>
+    <p>@article.Content</p>
+    </div>
+}
