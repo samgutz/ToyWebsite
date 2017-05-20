@@ -18,14 +18,14 @@ namespace WebApplication.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Sam Gutierrez's Personal Website";
+            ViewData["Message"] = "Just what you've been looking for";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Have questions? We can help! ";
 
             return View();
         }

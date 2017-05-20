@@ -1,13 +1,17 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
+
+    
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    top:200px;
+    padding-left: 5px;
+    padding-right: 5px;
+   
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -41,4 +45,487 @@ textarea {
   .carousel-caption {
     display: none
   }
+}
+
+.navbar-inverse {
+  background-color:white;
+  border-color:white;
+  color:black;
+  box-shadow: 0 2px 2px -2px gray;
+
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;  
+    font-size:14px;
+    max-height: auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color:#4d4c4c;
+}
+
+.navbar-inverse .navbar-brand{
+    color: #333;    
+    font-weight:600;
+    font-size:25px;
+}
+
+.navbar-inverse .navbar-brand:hover{
+    color:black;
+}
+
+p{
+    font-size:14px;
+}
+
+#titleText{
+    margin-top:80px;
+    margin-left:5%;
+    font-size: 45px;
+     font-size: 3vw;
+    font-weight:bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    animation:
+           fadein 1.5s linear forwards;
+}
+
+#success{
+    margin-right:5%;
+    float:right;
+    margin-top: 40px;
+    font-size:80px;
+    text-transform: uppercase;
+    font-size: 5vw;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     animation:
+           fadein 4s linear forwards;
+}
+
+#contactbuttons:hover{
+    cursor: pointer;
+
+}
+
+.row{
+    background-color:white;
+    padding-bottom:140px;
+}
+.row2{
+
+    background-color:white;
+    border-radius: 25px;
+    margin: 0 auto;
+    width:850px;
+    height: 350px;
+    animation:
+           bg_fadein 6s linear forwards;
+}
+
+.row3{
+    margin-top:100px;
+    color: black;
+    height: 400px;
+}
+
+#lasthomerow{
+    text-align:center;
+    font-size:40px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   height:200px;
+   
+}
+
+#getstartedbutton{
+    height: 50px;
+    border: #0E2F44 1px solid;
+    background-color: #0E2F44;
+    color:white;
+    width:180px;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    margin: 0 auto;
+    margin-top:40px;
+    line-height: 45px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px #888;
+
+}
+
+#getstartedbutton:hover{
+    background-color: #0E2F44;
+    color:white;
+    cursor:pointer;
+}
+
+#getstartedbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#getstartedbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#getstartedbutton:hover span {
+  padding-right: 25px;
+}
+
+#getstartedbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+img{
+    display: block;
+    margin: auto;
+    
+}
+
+.rowtitle{
+
+   font-size:40px;
+   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+   color: black;
+}
+.row3left{
+    padding-top:50px;
+    width:50%;
+    float:left;
+    padding-left:10px;
+}
+
+.row5right{
+    padding-top:50px;
+    width:50%;
+    float:right;
+}
+
+.rowcontent{
+    margin-top:25px;
+    font-size:25px;
+    line-height: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.row3image{
+
+    float:right;
+
+    width:50%;
+    height:inherit;
+
+}
+
+#manimage{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+.row5image{
+
+    float:left;
+
+    width:45%;
+    height:inherit;
+
+}
+
+
+#indexsoftwareleft{
+    float:left;
+    width:30%;
+    height:50%;
+    margin-left:15%;
+    margin-top:6%;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
+
+#indexsoftwareleft > a{
+    font-size:26px;
+    color:white;
+}
+
+#indexwebsiteright{
+    float:right;
+    width:30%;
+    height:50%;
+    margin-right:15%;
+    margin-top:6%;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+}
+
+#indexwebsiteright > a{
+    font-size:26px;
+    color:white;
+}
+
+
+
+#Welcome{
+    margin:0 auto;
+    margin-left: -210px;
+     text-align: center;
+    padding-top: 30px;
+    font-size:20px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    background-color:#0E2F44;
+    color:white;
+    padding-bottom: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width:98vw;
+
+}
+
+#Welcometext{
+    width:70%;
+    margin: 0 auto;
+}
+
+#Welcome > p{
+    
+   
+    padding-top:120px;
+    padding-bottom: 50px;
+    font-size:60px;
+    font-family: Milkshake;
+    color: white;
+    text-shadow: 3px 3px #222;
+    
+}
+
+#Believe{
+    margin:0 auto;
+    text-align: center;
+    padding-top: 30px;
+    font-size:22px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    width: 90%;
+    color:#0E2F44;
+    padding-bottom: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+#Believe > p{
+    padding:10px;
+    font-size:60px;
+    font-family: Milkshake;
+    color: black;
+    text-shadow: 1px 1px #999;
+    
+}
+
+#pricingtitle
+{
+    width:100%;
+    text-align: center;
+    margin-top:40px;  font-size:50px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: black;
+    text-shadow: 1px 1px #999; 
+
+}
+
+#Contacttitle
+{
+    width:100%;
+    text-align: left;
+    margin-top:40px;  
+    font-size:50px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color: black;
+    text-shadow: 1px 1px #999; 
+
+}
+
+#pricingbox{
+    width: 650px;
+    height: 350px;
+    
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+#softwareprice{
+    width:45%;
+    float:left;
+    text-align: center;
+    font-size:36px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color:#0E2F44;
+    border:1px black solid;
+    box-shadow:         3px 3px 5px 6px #ccc;
+    padding-bottom: 30px;
+}
+#priceinfo{
+    color:gray;
+    font-size: 16px;
+    width: 1000px;
+    margin:0 auto;
+}
+
+#softwareprice > p{
+    font-size: 24px;
+    color:black;
+    margin-bottom: 20px;
+}
+
+#softwareprice > a{
+    font-size: 25px;
+    color:#0E2F44;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-decoration: none;
+}
+
+#websiteprice{
+    width:45%;
+    float:right;
+    text-align: center;
+    font-size:36px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color:#0E2F44;
+    border:1px black solid;
+    box-shadow:         3px 3px 5px 6px #ccc;
+     padding-bottom: 30px;
+
+}
+
+#websiteprice > p{
+    font-size: 24px;
+    color:black;
+    margin-bottom: 20px;
+}
+#websiteprice > a{
+    font-size: 22px;
+    color:#0E2F44;
+}
+
+.table
+{
+    float: left; width: 33%; text-align: center; color:black;
+}
+
+.contactimg{
+   max-height:150px;
+}
+
+#Developers{
+    margin:0 auto;
+    margin-left:-210px;
+    text-align: center;
+    padding-top: 120px;
+    width: 98vw;
+    background-color:lightsteelblue;
+    color:black;
+    height:635px;
+    
+}
+#sam{
+    height:350px;
+    width:100%;
+    border: 1px solid blue;
+}
+
+#adamorsam{
+    height:200px;
+    width:350px;
+    padding-top: 50px;
+    color:black;
+    margin: 0 auto;
+}
+
+#adambutton{
+    float:left;
+    width:140px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:40px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 20px;
+}
+
+#adambutton:hover{
+    cursor:pointer;
+    color:#444;
+}
+
+#adambutton> p{
+    font-size:20px;
+}
+#sambutton{
+    float:right;
+    width:140px;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:40px;
+    vertical-align: center;
+    text-align: center;
+    line-height: 20px;
+}
+#sambutton:hover{
+    cursor:pointer;
+    color:#444;
+}
+
+#sambutton > p{
+    font-size:20px;
+
+}
+
+#Developers > p{
+    padding-left: 100px;
+    padding:10px;
+    font-size:60px;
+    font-family: Milkshake;
+    color: black;
+    text-shadow: 1px 1px #999;
+}
+
+#adam{
+    height:350px;
+    width:100%;
+    border:1px solid green;
+}
+
+@keyframes fadein {
+    0% {opacity:0;}
+    80% {opacity:0; }
+    100% {opacity:1; }
+}
+
+
+@keyframes bg_fadein {
+    0% {background-color:white;}
+    80% {background-color:white; }
+    100% {background-color:#0E2F44;}
+}
+
+@font-face {
+    font-family: 'Milkshake'; /*a name to be used later*/
+    src: url('/lib/bootstrap/fonts/Milkshake.ttf'); /*URL to font*/
 }

@@ -1,10 +1,5 @@
-<h1> News Feed </h1>
-<h3> Here is a news feed</h3>
+<div class = "rowtitle" id = "pricingtitle">Simple Pricing.</div> 
 
-@foreach(var article in @Model.Articles)
-{
-    <div id=@article.ArticleID>
-    <b>@article.Title</b>
-    <p>@article.Content</p>
-    </div>
-}
+<div id = "pricingbox"><div id = "softwareprice"><p>Software</p><a>$</a>40<a>/ hour</a></div><div id = "websiteprice"><p>Website</p><a>$</a>500<a> base price + <br>$</a>20<a>/ hour</a></div></div>
+
+<div id = "priceinfo"> Price per hour is based on hours spent designing, developing, and testing the software or website.  Customer will be provided a quote of expected total cost before project is started.  The quote is only an estimate of how much the service will cost, and the actual cost may differ. Upon completion of a project, an invoice will be sent to the customer.  The customer should remit payment within thirty (30) days.</div>
