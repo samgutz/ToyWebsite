@@ -1,4 +1,4 @@
-
+@model ContactViewModel
 <div id = "Contacttitle">Contact Us</div>
 
 <h2>@ViewData["Title"]</h2>
@@ -10,5 +10,29 @@
  <a class= "table"><img class = "contactimg" src="/images/cs.png"/> <br> Customer Support</a>
  <a class= "table"><img class = "contactimg" src="/images/meeting.png"/> <br> Set Up a Meeting</a>
 
+<form asp-controller="Home" asp-action="Contact" method="post" class="form-horizontal">
+    <h4>Contact form Placeholder</h4>
+    <hr />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="EmailAddress" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="EmailAddress" class="form-control" />
+            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Message" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="Message" class="form-control" />
+            <span asp-validation-for="Message"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-default">Submit Form</button>
+        </div>
+    </div>
+</form>
  <br style="clear: left;" />
  </div>
